@@ -1,0 +1,31 @@
+.grid-container{
+    min-width: 40vw;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    box-sizing: border-box;
+
+}
+.grid-div{
+    border: 1px solid rgb(177, 172, 172);
+}
+.cell-in-row{
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid rgb(177, 172, 172);
+}
+.cell-in-row:hover{
+    border: 1px solid rgb(0, 255, 195);
+}
+.blue-cell{
+    background: rgb(25, 148, 224);
+}
+.red-cell{
+    background: rgb(137, 16, 32);
+}
+.green-cell{
+    background: rgb(28, 165, 0);
+}

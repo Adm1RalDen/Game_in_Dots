@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+.container-content{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    flex-direction: row;
+    height: 90vh;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.mainTitle{
+    font-size: 2em;
+    color: rgb(66, 60, 60);
+    text-align: center;
+}

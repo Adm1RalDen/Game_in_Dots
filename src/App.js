@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Header from './components/buttonsInHeader';
+import Grid from './components/grid';
+import './styles/App.css';
+import LeaderBoard from './components/leaderBoard';
+import { Typography } from 'antd';
+import Message from './components/message';
+
+const { Title } = Typography;
+
+const App = (props) => {
+    return (
+        <div className='main-container'>
+            <div className='mainTitle'><Title>Game In Dots</Title></div>
+            <div className='container-content'>
+                <div>
+                    <Header />
+                    <Message />
+                    <Grid />
+                </div>
+                <LeaderBoard />
+            </div>
+        </div>
+    );
 }
-
-export default App;
+export default App

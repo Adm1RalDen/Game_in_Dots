@@ -1,0 +1,11 @@
+.leader-board-container{
+    height: 95%;
+    width: 40vw;
+    overflow: auto;
+}
+.ant-card-head{
+    position: sticky;
+    top: 0;
+    background: rgb(255, 255, 255);
+    z-index: 10;
+}
