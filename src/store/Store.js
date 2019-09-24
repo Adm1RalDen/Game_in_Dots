@@ -5,7 +5,7 @@ class Store {
     choosenModeGame = {};
     isPlay = false;
     playerName = '';
-    url = 'http://starnavi-frontend-test-task.herokuapp.com/';
+    url = 'https://starnavi-frontend-test-task.herokuapp.com/';
     gameSettings = [];
     grid = [];
     count = 0;

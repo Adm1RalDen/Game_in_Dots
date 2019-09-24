@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { inject, observer } from 'mobx-react'
 import { Col, Row } from 'antd'
-import '../styles/Grid.css';
+import './Grid.css';
 
-const Grid = inject('Store')(observer((props) => {
-    let handleClickToCell = (i, j) => {
+const Grid = (props) => {
+    const handleClickToCell = (i, j) => {
         if (props.Store.isPlay) {
             let arr = props.Store.grid;
             if (arr[i][j].classColor === 'blue-cell') {
@@ -26,5 +26,6 @@ const Grid = inject('Store')(observer((props) => {
                 : <div>Please pick game mode</div>}
         </div >
     );
-}))
-export default Grid
+}
+const grid = inject('Store')(observer(Grid));
+export default grid
