@@ -6,11 +6,9 @@ const { Option } = Select;
 let moment = require("moment");
 
 class Headers extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { firstGames: false, arr: [] };
-    this.intervalGame = null;
-  }
+  state = { firstGames: false, arr: [] };
+  intervalGame = null;
+
   createGrid = size => {
     let temp = [];
     for (let i = 0; i < +size; i++) {
@@ -59,7 +57,6 @@ class Headers extends React.Component {
       winner,
       date: moment().format("H:mm; DD MMMM YYYY")
     });
-    this.props.Store.getWinners();
   };
   checkerCell = () => {
     let counts = this.props.Store.count; //номер ячейки для проверки
