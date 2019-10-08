@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Game_in_Dots/static/css/main.28ed2f5e.chunk.css",
-    "main.js": "/Game_in_Dots/static/js/main.83fa12df.chunk.js",
-    "main.js.map": "/Game_in_Dots/static/js/main.83fa12df.chunk.js.map",
+    "main.css": "/Game_in_Dots/static/css/main.059a3562.chunk.css",
+    "main.js": "/Game_in_Dots/static/js/main.55447a24.chunk.js",
+    "main.js.map": "/Game_in_Dots/static/js/main.55447a24.chunk.js.map",
     "runtime-main.js": "/Game_in_Dots/static/js/runtime-main.d02e9600.js",
     "runtime-main.js.map": "/Game_in_Dots/static/js/runtime-main.d02e9600.js.map",
     "static/css/2.96121624.chunk.css": "/Game_in_Dots/static/css/2.96121624.chunk.css",
-    "static/js/2.8c21cc46.chunk.js": "/Game_in_Dots/static/js/2.8c21cc46.chunk.js",
-    "static/js/2.8c21cc46.chunk.js.map": "/Game_in_Dots/static/js/2.8c21cc46.chunk.js.map",
+    "static/js/2.a4f8db00.chunk.js": "/Game_in_Dots/static/js/2.a4f8db00.chunk.js",
+    "static/js/2.a4f8db00.chunk.js.map": "/Game_in_Dots/static/js/2.a4f8db00.chunk.js.map",
     "index.html": "/Game_in_Dots/index.html",
-    "precache-manifest.3631993d28f5186d777067a9ac15da4c.js": "/Game_in_Dots/precache-manifest.3631993d28f5186d777067a9ac15da4c.js",
+    "precache-manifest.570c968c76d9efe1560e7d07397336a7.js": "/Game_in_Dots/precache-manifest.570c968c76d9efe1560e7d07397336a7.js",
     "service-worker.js": "/Game_in_Dots/service-worker.js",
     "static/css/2.96121624.chunk.css.map": "/Game_in_Dots/static/css/2.96121624.chunk.css.map",
-    "static/css/main.28ed2f5e.chunk.css.map": "/Game_in_Dots/static/css/main.28ed2f5e.chunk.css.map"
+    "static/css/main.059a3562.chunk.css.map": "/Game_in_Dots/static/css/main.059a3562.chunk.css.map"
   }
 }
